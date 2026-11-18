@@ -12,7 +12,7 @@
 <link rel="preload" as="image" href="img/hp-zolte.webp" media="(min-width:861px)" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fonts/saira.woff2" crossorigin>
 <style>
-@font-face{font-family:Saira;src:url(fonts/saira.woff2) format("woff2");font-weight:400 700;font-stretch:100% 125%;font-display:swap}
+@font-face{font-family:Saira;src:url(fonts/saira.woff2) format("woff2");font-weight:400 700;font-stretch:100% 125%;font-display:optional}
 :root{--blue:#0e76bd;--blue-d:#0a5f99;--navy:#0b2a44;--ink:#14212e;--mut:#4a5867;--grey:#eef1f4;--line:#d6dde4;--g:max(16px,4vw,calc((100vw - 1720px)/2));--hdr:64px}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:var(--hdr)}
@@ -374,7 +374,7 @@ body{font-size:16.5px}
       <p class="ok" role="status">To podgląd - formularz zacznie wysyłać zapytania na biuro@sumara-lesterprojekt.pl po wdrożeniu strony.</p>
     </form>
   </div>
-  <div class="mapa" id="mapa" data-src="https://maps.google.com/maps?q=S%C5%82utowo%2011%2C%2073-210%20Recz&amp;z=13&amp;output=embed" aria-label="Mapa dojazdu"></div>
+  <div class="mapa" id="mapa" role="region" data-src="https://maps.google.com/maps?q=S%C5%82utowo%2011%2C%2073-210%20Recz&amp;z=13&amp;output=embed" aria-label="Mapa dojazdu"></div>
 </section>
 </main>
 
